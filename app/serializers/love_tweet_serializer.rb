@@ -1,3 +1,7 @@
 class LoveTweetSerializer < ActiveModel::Serializer
-  attributes :id, :content, :user_id
+  attributes :id, :user_id, :tweet_id
+
+  has_one :user
+  has_one :tweet
+  
 end
