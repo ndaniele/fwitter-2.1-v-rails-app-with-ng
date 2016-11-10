@@ -47,4 +47,19 @@ a tweet has content
       }
 ]
 
+<!-- Javascript -->
+use a packaging service to handle our front end assests
+  - bower (bower-rails)
+  - Angular Templates (angular-rails-templates)
+
+
+Use Angular
+  - Angular JS (ng-directives, controllers, services, factories, components)
+  - Angular UI Router (routing URL)
+  - Angular Devise (front end authentication)
+
+Use Moment.js
+Use Bootstrap
+
+
 

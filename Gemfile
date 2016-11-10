@@ -1,4 +1,8 @@
 source 'http://rubygems.org'
+gem 'bower-rails'
+
+gem 'angular-rails-templates'
+
 gem 'pry'
 
 gem 'responders'
