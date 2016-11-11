@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+ 
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+}
+
+div.sidebar-left {
+  padding: 30px; 
+  float: left;
+  width: 25%;
+  height: 100vh; 
+  background-color: #9b59b6;
+  box-sizing: border-box;
+}
+
+div.main-content {
+  float: left;
+  padding: 30px;
+  width: 75%;
+  height: 100vh;
+  box-sizing: border-box;
+
+}
+
+.navbar {
+  margin-bottom: 0;
+}
